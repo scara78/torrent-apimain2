@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/*.js": {
-      "runtime": "vercel-nodejs@4.0.0"
+      "runtime": "nodejs@18.x"
     }
   },
   "routes": [
@@ -15,6 +15,7 @@
     "NODE_ENV": "production"
   }
 }
+
 
 
 
