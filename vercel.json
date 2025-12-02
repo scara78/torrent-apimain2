@@ -2,7 +2,7 @@
   "version": 2,
   "functions": {
     "api/*.js": {
-      "runtime": "@vercel/node@20.x"
+      "runtime": "vercel-nodejs@4.0.0"
     }
   },
   "routes": [
@@ -14,8 +14,8 @@
   "env": {
     "NODE_ENV": "production"
   }
+}
 
-} 
 
 
 
