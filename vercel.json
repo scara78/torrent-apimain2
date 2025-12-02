@@ -1,10 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "api/*.js": {
-      "runtime": "@vercel/node@latest"
-    }
-  },
   "routes": [
     {
       "src": "/api/(.*)",
@@ -15,7 +10,6 @@
     "NODE_ENV": "production"
   }
 }
-
 
 
 
